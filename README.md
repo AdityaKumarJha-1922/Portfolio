@@ -29,7 +29,7 @@ cd Portfolio
 ```
 
 ## 📷 Screenshots
-![Portfolio Preview](https://github.com/AdityaKumarJha-1922/Portfolio/blob/main/images/Waystoinstall%20Linux.png)
+![Portfolio Preview](https://github.com/AdityaKumarJha-1922/Portfolio/blob/main/images/Porfolio Sample1.jpg)
 
 ## 🛠️ Customization
 You can customize the content by editing the files inside:

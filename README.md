@@ -29,7 +29,7 @@ cd Portfolio
 ```
 
 ## 📷 Screenshots
-![Portfolio Preview](https://github.com/AdityaKumarJha-1922/Portfolio/blob/main/images/Porfolio%20Sample1.jpg)
+![Portfolio Preview](https://github.com/AdityaKumarJha-1922/Portfolio/blob/main/images/MainSample.png)
 ![Portfolio Preview](https://github.com/AdityaKumarJha-1922/Portfolio/blob/main/images/Worksample.png)
 
 ## 🛠️ Customization

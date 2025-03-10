@@ -3,7 +3,7 @@
 Welcome to my portfolio website! This is a showcase of my projects, skills, and experiences as a Computer Science graduate with expertise in software development, machine learning, and VR application development.
 
 ## 🌐 Live Demo
-You can check out my portfolio here: [Your Portfolio URL](https://adityakumarjha.com.np)
+You can check out my portfolio here: [My Portfolio URL](https://adityakumarjha.com.np)
 
 ## 📌 Features
 - 🖥️ Modern and responsive design
@@ -29,21 +29,16 @@ cd Portfolio
 ```
 
 ## 📷 Screenshots
-![Portfolio Preview](https://yourimageurl.com)
+![Portfolio Preview](https://github.com/AdityaKumarJha-1922/Portfolio/blob/main/images/Waystoinstall%20Linux.png)
 
 ## 🛠️ Customization
 You can customize the content by editing the files inside:
-- `src/components/` (for UI components)
-- `public/assets/` (for images and static files)
-- `pages/` (for routing and sections)
+- `images/` (for images and static files)
+- `index.html` (for contents of Website)
 
 ## 🤝 Contributing
 Feel free to contribute or suggest improvements by submitting an issue or a pull request.
 
 ## 📬 Contact
-📧 Email: your.email@example.com  
-🔗 LinkedIn: [Your LinkedIn](https://linkedin.com/in/yourprofile)  
-🐦 Twitter: [@yourhandle](https://twitter.com/yourhandle)
-
-## 📜 License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+📧 Email: info [dot] adityajha1 [at] gmail [dot] com  
+🔗 LinkedIn: [LinkedIn](https://www.linkedin.com/in/aditya-kumar-jha-572149197/)

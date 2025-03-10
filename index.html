@@ -781,30 +781,32 @@
             </div>
         </div>
     </section>
-
-    <!-- Portfolio Section -->
-    <section id="portfolio" class="portfolio">
-        <div class="container">
-            <h2 class="section-title">My Portfolio</h2>
+<!-- Portfolio Section with Horizontal Scrolling and Auto-scroll -->
+<section id="portfolio" class="portfolio">
+    <div class="container">
+        <h2 class="section-title">My Portfolio</h2>
+        
+        <!-- Horizontal scrolling container with side navigation buttons -->
+        <div class="portfolio-container">
+            <button id="scrollLeft" class="scroll-btn scroll-btn-left disabled"><i class="fas fa-chevron-left"></i></button>
             
-            <div class="projects-grid">
+            <div class="projects-scroll-container" id="projectsContainer">
                 <!-- Project 1 -->
                 <div class="project-card">
                     <div class="project-img">
-                        <img src="https://via.placeholder.com/600x400" alt="E-commerce Website">
+                        <img src="https://via.placeholder.com/600x400" alt="MedCare Website">
                     </div>
                     <div class="project-content">
-                        <h3 class="project-title">E-commerce Platform</h3>
-                        <p style="margin-bottom: 15px;">A fully responsive e-commerce platform with product filtering, shopping cart, and secure checkout functionality.</p>
-                        <div style="margin-bottom: 15px;">
+                        <h3 class="project-title">MedCare-AI</h3>
+                        <p class="project-description">A fully responsive e-commerce platform with product filtering, shopping cart, and secure checkout functionality.</p>
+                        <div class="tech-tags">
                             <span class="tech-tag">React.js</span>
                             <span class="tech-tag">Node.js</span>
                             <span class="tech-tag">MongoDB</span>
-                            <span class="tech-tag">Stripe API</span>
                         </div>
-                        <div>
+                        <div class="project-links">
                             <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Live Demo</a>
-                            <a href="#" target="_blank" style="margin-left: 15px;"><i class="fab fa-github"></i> Github</a>
+                            <a href="https://github.com/manas-panta/MedCare" target="_blank"><i class="fab fa-github"></i> Github</a>
                         </div>
                     </div>
                 </div>
@@ -812,19 +814,19 @@
                 <!-- Project 2 -->
                 <div class="project-card">
                     <div class="project-img">
-                        <img src="https://via.placeholder.com/600x400" alt="Finance App UI Design">
+                        <img src="images\VR Internal.jpg" alt="Speech Studio">
                     </div>
                     <div class="project-content">
-                        <h3 class="project-title">Finance App UI/UX</h3>
-                        <p style="margin-bottom: 15px;">Complete UI/UX design for a personal finance management app, including user flow, wireframes, and high-fidelity prototypes.</p>
-                        <div style="margin-bottom: 15px;">
-                            <span class="tech-tag">Figma</span>
-                            <span class="tech-tag">Adobe XD</span>
-                            <span class="tech-tag">Prototyping</span>
+                        <h3 class="project-title">Speech Studio VR</h3>
+                        <p class="project-description">Complete UI/UX design for a personal finance management app, including user flow, wireframes, and high-fidelity prototypes.</p>
+                        <div class="tech-tags">
+                            <span class="tech-tag">VR</span>
+                            <span class="tech-tag">Unity</span>
+                            <span class="tech-tag">C#</span>
                         </div>
-                        <div>
-                            <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> Case Study</a>
-                            <a href="#" target="_blank" style="margin-left: 15px;"><i class="fas fa-play-circle"></i> Prototype</a>
+                        <div class="project-links">
+                            <a href="https://www.linkedin.com/feed/update/urn:li:activity:7219682532483592193/" target="_blank"><i class="fas fa-external-link-alt"></i> Case Study</a>
+                            <a href="https://drive.google.com/file/d/10-Iewb2auCas1wK13EasKrQW4xE1kpwP/view" target="_blank"><i class="fas fa-play-circle"></i> Prototype</a>
                         </div>
                     </div>
                 </div>
@@ -832,25 +834,348 @@
                 <!-- Project 3 -->
                 <div class="project-card">
                     <div class="project-img">
-                        <img src="https://via.placeholder.com/600x400" alt="Fitness Tracker App">
+                        <img src="images\Restaurant Recommend Sys.png" alt="Restaurant Recommendation System">
                     </div>
                     <div class="project-content">
-                        <h3 class="project-title">Fitness Tracker App</h3>
-                        <p style="margin-bottom: 15px;">Mobile application that allows users to track workouts, set goals, and monitor progress with interactive charts.</p>
-                        <div style="margin-bottom: 15px;">
-                            <span class="tech-tag">React Native</span>
-                            <span class="tech-tag">Firebase</span>
-                            <span class="tech-tag">D3.js</span>
+                        <h3 class="project-title">Restaurant Recommendation System</h3>
+                        <p class="project-description">A web-based solution simplifying dining spot discovery by analyzing cuisine, location, and reviews, delivering tailored suggestions to elevate experiences.</p>
+                        <div class="tech-tags">
+                            <span class="tech-tag">Recommendation System</span>
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Flask</span>
                         </div>
-                        <div>
-                            <a href="#" target="_blank"><i class="fas fa-external-link-alt"></i> App Store</a>
-                            <a href="#" target="_blank" style="margin-left: 15px;"><i class="fab fa-github"></i> Github</a>
+                        <div class="project-links">
+                            <a href="https://drive.google.com/file/d/1mTGQKqKTnoTWND6IzlJ11S2ZxqG02FEF/view" target="_blank"><i class="fas fa-external-link-alt"></i> Demo Link</a>
+                            <a href="https://github.com/smartinternz02/SI-GuidedProject-615819-1700656792" target="_blank"><i class="fab fa-github"></i> Github</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 4 (New Project) -->
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="images\ECG Reading.jpg" alt="ECG Monitoring System">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">ECG Monitoring System</h3>
+                        <p class="project-description">An IoT-based ECG monitoring system for real-time heart health analysis and early disease detection.</p>
+                        <div class="tech-tags">
+                            <span class="tech-tag">IoT</span>
+                            <span class="tech-tag">Arduino</span>
+                            <span class="tech-tag">C++</span>
+                            <span class="tech-tag">MQTT</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://sopan.netlify.app/" target="_blank"><i class="fas fa-external-link-alt"></i> Demo</a>
+                            <a href="https://github.com/AdityaKumarJha-1922/ECG-Monitoring-System" target="_blank"><i class="fab fa-github"></i> Github</a>
                         </div>
                     </div>
                 </div>
             </div>
+            
+            <button id="scrollRight" class="scroll-btn scroll-btn-right"><i class="fas fa-chevron-right"></i></button>
         </div>
-    </section>
+    </div>
+    
+    <!-- Add the required CSS for horizontal scrolling and side navigation buttons -->
+    <style>
+        .portfolio-container {
+            position: relative;
+            width: 100%;
+            padding: 0 50px; /* Increased padding to make room for outward buttons */
+        }
+        
+        .projects-scroll-container {
+            display: flex;
+            overflow-x: auto;
+            white-space: nowrap;
+            padding: 20px 0;
+            -webkit-overflow-scrolling: touch; /* For smooth scrolling on iOS */
+            scroll-behavior: smooth;
+            gap: 20px; /* Space between project cards */
+            position: relative;
+        }
+        
+        .project-card {
+                flex: 0 0 auto;
+                width: 350px; /* Fixed width for each card */
+                white-space: normal; /* Reset white-space inside cards */
+                box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+                border-radius: 8px;
+                overflow: hidden;
+                transition: transform 0.3s ease;
+                display: flex;
+                flex-direction: column;
+                box-sizing: border-box;
+            }
+        
+        .project-card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .project-img {
+            width: 100%;
+            height: 200px;
+            overflow: hidden;
+        }
+        
+        .project-img img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        
+        .project-content {
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            flex-grow: 1;
+            height: 250px; /* Fixed height for content area */
+        }
+        
+        .project-title {
+            margin-top: 0;
+            margin-bottom: 10px;
+            font-size: 1.25rem;
+            font-weight: 600;
+        }
+        
+        .project-description {
+            flex-grow: 1;
+            margin-bottom: 15px;
+            overflow: hidden;
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+            line-height: 1.5;
+        }
+        
+        .tech-tags {
+            margin-bottom: 15px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 5px;
+        }
+        
+        .tech-tag {
+                background-color: #181818; /* Dark background as seen in the image */
+                color: #F5E570; /* Light yellow text as per the image */
+                font-size: 0.75rem;
+                padding: 6px 12px;
+                border-radius: 20px; /* Rounded look similar to the image */
+                display: inline-block;
+            }
+        
+        .project-links {
+            display: flex;
+            justify-content: space-between;
+            margin-top: auto;
+        }
+        
+        .project-links a {
+                color: #FFD700; /* Primary yellow for links */
+                text-decoration: none;
+                display: inline-flex;
+                align-items: center;
+                font-weight: 500;
+                font-size: 0.9rem;
+                transition: color 0.2s;
+            }
+        
+        .project-links a i {
+            margin-right: 5px;
+        }
+        
+        .project-links a:hover {
+                color: #FFEC8B; /* Lighter yellow on hover */
+            }
+        
+        /* Hide scrollbar for Chrome, Safari and Opera */
+        .projects-scroll-container::-webkit-scrollbar {
+            display: none;
+        }
+        
+        /* Hide scrollbar for IE, Edge and Firefox */
+        .projects-scroll-container {
+            -ms-overflow-style: none;  /* IE and Edge */
+            scrollbar-width: none;  /* Firefox */
+        }
+
+        .projects-scroll-container::after {
+                content: "";
+                flex: 0 0 20px;
+            }
+
+        
+        /* Side Navigation Buttons */
+        .scroll-btn {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background-color: #FFD700; /* Yellow color */
+            color: #333; /* Dark text for better contrast */
+            border: none;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+            z-index: 10;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+        }
+        
+        .scroll-btn:hover {
+            background-color: #FFEC8B; /* Lighter yellow on hover */
+            transform: translateY(-50%) scale(1.1);
+        }
+        
+        .scroll-btn.disabled {
+            background-color: #E0E0E0; /* Gray when disabled */
+            color: #999;
+            cursor: not-allowed;
+            transform: translateY(-50%);
+        }
+        
+        .scroll-btn-left {
+            left: -20px; /* Positioned more outward */
+        }
+        
+        .scroll-btn-right {
+            right: -20px; /* Positioned more outward */
+        }
+        
+        /* Responsive adjustments */
+        @media (max-width: 768px) {
+            .portfolio-container {
+                padding: 0 40px;
+            }
+            
+            .project-card {
+                width: 300px;
+            }
+            
+            .project-content {
+                height: 270px; /* Slightly taller for mobile */
+            }
+            
+            .scroll-btn {
+                width: 35px;
+                height: 35px;
+            }
+            
+            .scroll-btn-left {
+                left: -15px;
+            }
+            
+            .scroll-btn-right {
+                right: -15px;
+            }
+        }
+    </style>
+    
+    <!-- JavaScript for auto-scrolling and button controls -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const container = document.getElementById('projectsContainer');
+            const scrollLeftBtn = document.getElementById('scrollLeft');
+            const scrollRightBtn = document.getElementById('scrollRight');
+            
+            let autoScrollInterval;
+            
+            // Function to scroll right by one card
+            function scrollRight() {
+                container.scrollBy({
+                    left: 370, // Card width (350px) + gap (20px)
+                    behavior: 'smooth'
+                });
+                
+                // If we've reached the end, scroll back to the beginning
+                if (container.scrollLeft + container.clientWidth >= container.scrollWidth - 50) {
+                    setTimeout(() => {
+                        container.scrollTo({
+                            left: 0,
+                            behavior: 'smooth'
+                        });
+                    }, 500);
+                }
+                
+                updateButtonStates();
+            }
+            
+            // Function to scroll left by one card
+            function scrollLeft() {
+                container.scrollBy({
+                    left: -370, // Card width (350px) + gap (20px)
+                    behavior: 'smooth'
+                });
+                
+                updateButtonStates();
+            }
+            
+            // Update button states based on scroll position
+            function updateButtonStates() {
+                // If at the beginning, disable left button
+                if (container.scrollLeft <= 10) {
+                    scrollLeftBtn.classList.add('disabled');
+                } else {
+                    scrollLeftBtn.classList.remove('disabled');
+                }
+                
+                // If at the end, disable right button
+                if (container.scrollLeft + container.clientWidth >= container.scrollWidth - 10) {
+                    scrollRightBtn.classList.add('disabled');
+                } else {
+                    scrollRightBtn.classList.remove('disabled');
+                }
+            }
+            
+            // Start auto-scrolling (every 6 seconds)
+            function startAutoScroll() {
+                autoScrollInterval = setInterval(scrollRight, 6000);
+            }
+            
+            // Event listeners for buttons
+            scrollLeftBtn.addEventListener('click', function() {
+                if (!this.classList.contains('disabled')) {
+                    scrollLeft();
+                    // Reset auto-scroll timer when manual navigation occurs
+                    clearInterval(autoScrollInterval);
+                    startAutoScroll();
+                }
+            });
+            
+            scrollRightBtn.addEventListener('click', function() {
+                if (!this.classList.contains('disabled')) {
+                    scrollRight();
+                    // Reset auto-scroll timer when manual navigation occurs
+                    clearInterval(autoScrollInterval);
+                    startAutoScroll();
+                }
+            });
+            
+            // Pause auto-scroll when hovering over container
+            container.addEventListener('mouseenter', function() {
+                clearInterval(autoScrollInterval);
+            });
+            
+            // Resume auto-scroll when mouse leaves container
+            container.addEventListener('mouseleave', function() {
+                startAutoScroll();
+            });
+            
+            // Listen for scroll events to update button states
+            container.addEventListener('scroll', updateButtonStates);
+            
+            // Initialize button states and start auto-scroll
+            updateButtonStates();
+            startAutoScroll();
+        });
+    </script>
+</section>
+
 
     <!-- Resume Section -->
     <section id="resume" class="resume">

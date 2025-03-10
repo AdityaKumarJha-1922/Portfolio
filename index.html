@@ -221,6 +221,24 @@
             line-height: 1.2;
         }
 
+        /* Styles for Dynamic Text */
+        #dynamic-text {
+            color: #FFC107; /* Yellow accent color */
+            font-weight: bold;
+        }
+
+        #dynamic-text::after {
+            content: "|"; /* Blinking cursor */
+            display: inline-block;
+            animation: blink 0.7s infinite;
+        }
+
+        @keyframes blink {
+            0% { opacity: 1; }
+            50% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+
         .hero p.tagline {
             font-size: 22px;
             margin-bottom: 30px;
@@ -232,6 +250,7 @@
             margin-bottom: 40px;
             max-width: 600px;
         }
+
 
         /* About Section */
         .about {
@@ -637,7 +656,9 @@
         <div class="container">
             <div class="hero-content">
                 <h1>Aditya Kumar Jha</h1>
-                <p class="tagline">Front-End Developer & UI Designer</p>
+                <p class="tagline">
+                    <span id="dynamic-text"></span>
+                </p>
                 <p class="intro">I create beautiful, functional, and user-friendly digital experiences that help businesses grow and succeed.</p>
                 <div>
                     <a href="#portfolio" class="btn">View My Work</a>
@@ -649,6 +670,7 @@
             </div>
         </div>
     </section>
+    
 
     <!-- About Section -->
     <section id="about" class="about">
@@ -716,7 +738,7 @@
                     
                     <div style="margin-bottom: 30px;">
                         <h4 style="color: var(--yellow-primary); margin-bottom: 15px;">Education</h4>
-                        <p><strong>BS in Computer Science</strong> - University Name, 2020</p>
+                        <p><strong>B.Tech in Computer Science</strong> - Vellore Institute Of Technology, 2025</p>
                         <p><strong>Web Development Certification</strong> - Academy Name, 2021</p>
                     </div>
                     
@@ -977,8 +999,25 @@
         </div>
     </footer>
 
-    <!-- JavaScript for interactive elements -->
-    <script>
+    <!-- Include Typed.js Library -->
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        // Initialize Typed.js for dynamic text animation
+        new Typed("#dynamic-text", {
+            strings: [
+                "Unity VR Developer",
+                "ML/DL Developer",
+                "Data Scientist"
+            ],
+            typeSpeed: 50, // Speed of typing
+            backSpeed: 30, // Speed of backspacing
+            loop: true, // Loop the animation
+            showCursor: true, // Show blinking cursor
+            cursorChar: "|", // Customize cursor character
+        });
+
         // Mobile Menu Toggle
         const menuToggle = document.querySelector('.menu-toggle');
         const navLinks = document.querySelector('.nav-links');
@@ -986,7 +1025,7 @@
         menuToggle.addEventListener('click', () => {
             navLinks.classList.toggle('active');
         });
-        
+
         // Smooth scrolling for anchor links
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function(e) {
@@ -1002,7 +1041,7 @@
                 }
             });
         });
-        
+
         // Active navigation highlighting based on scroll position
         window.addEventListener('scroll', () => {
             let current = '';
@@ -1024,6 +1063,8 @@
                 }
             });
         });
-    </script>
+    });
+</script>
+
 </body>
 </html>

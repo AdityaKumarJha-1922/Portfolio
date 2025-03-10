@@ -1,39 +1,49 @@
-# Aditya Kumar Jha - Personal portfolio
+# 🚀 My Portfolio Website
 
+Welcome to my portfolio website! This is a showcase of my projects, skills, and experiences as a Computer Science graduate with expertise in software development, machine learning, and VR application development.
 
-vCard is a fully responsive personal portfolio website, responsive for all devices, built using HTML, CSS, and JavaScript.
+## 🌐 Live Demo
+You can check out my portfolio here: [Your Portfolio URL](https://adityakumarjha.com.np)
 
-## Demo
+## 📌 Features
+- 🖥️ Modern and responsive design
+- 📂 Showcasing projects with descriptions and links
+- 📝 Interactive Pages section 
+- 📞 Contact form for inquiries
+- 🌙 Dark mode 
 
-![vCard Desktop Demo](./website-demo-image/desktop.png "Desktop Demo")
-![vCard Mobile Demo](./website-demo-image/mobile.png "Mobile Demo")
+## 🛠️ Tech Stack
+- **Frontend**: HTML, CSS, JavaScript, React.js
+- **Deployment**: GitHub Pages
 
-## Prerequisites
-
-Before you begin, ensure you have met the following requirements:
-
-* [Git](https://git-scm.com/downloads "Download Git") must be installed on your operating system.
-
-## Installing vCard
-
-To install **vCard**, follow these steps:
-
-Linux and macOS:
-
-```bash
-sudo git clone https://github.com/codewithsadee/vcard-personal-portfolio.git
-```
-
-Windows:
+## 📖 Setup Instructions
+To run this project locally:
 
 ```bash
-git clone https://github.com/codewithsadee/vcard-personal-portfolio.git
+# Clone the repository
+git clone https://github.com/AdityaKumarJha-1922/Portfolio.git
+
+# Navigate into the project directory
+cd Portfolio
+
 ```
 
-## Contact
+## 📷 Screenshots
+![Portfolio Preview](https://yourimageurl.com)
 
-If you want to contact me you can reach me at [Twitter](https://www.twitter.com/codewithsadee).
+## 🛠️ Customization
+You can customize the content by editing the files inside:
+- `src/components/` (for UI components)
+- `public/assets/` (for images and static files)
+- `pages/` (for routing and sections)
 
-## License
+## 🤝 Contributing
+Feel free to contribute or suggest improvements by submitting an issue or a pull request.
 
-MIT
+## 📬 Contact
+📧 Email: your.email@example.com  
+🔗 LinkedIn: [Your LinkedIn](https://linkedin.com/in/yourprofile)  
+🐦 Twitter: [@yourhandle](https://twitter.com/yourhandle)
+
+## 📜 License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

@@ -30,7 +30,7 @@ cd Portfolio
 
 ## 📷 Screenshots
 ![Portfolio Preview](https://github.com/AdityaKumarJha-1922/Portfolio/blob/main/images/MainSample.png)
-![Portfolio Preview](https://github.com/AdityaKumarJha-1922/Portfolio/blob/main/images/Worksample.png)
+![Portfolio Preview](https://github.com/AdityaKumarJha-1922/Portfolio/blob/main/images/SampleWork.png)
 
 ## 🛠️ Customization
 You can customize the content by editing the files inside:

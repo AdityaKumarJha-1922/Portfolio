@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 — Page Not Found | Aditya Kumar Jha</title>
+    <link rel="icon" href="assets/favicon/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        .error-page {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            background-color: var(--darker-bg);
+        }
+
+        .error-code {
+            font-size: 120px;
+            font-weight: 700;
+            color: var(--yellow-primary);
+            line-height: 1;
+            margin-bottom: 10px;
+        }
+
+        .error-message {
+            font-size: 24px;
+            margin-bottom: 15px;
+            color: var(--light-text);
+        }
+
+        .error-description {
+            font-size: 16px;
+            color: #999;
+            margin-bottom: 30px;
+            max-width: 450px;
+        }
+    </style>
+</head>
+<body>
+    <div class="error-page">
+        <div>
+            <div class="error-code">404</div>
+            <h1 class="error-message">Page Not Found</h1>
+            <p class="error-description">Sorry, the page you're looking for doesn't exist or has been moved.</p>
+            <a href="/" class="btn">Back to Home</a>
+        </div>
+    </div>
+</body>
+</html>

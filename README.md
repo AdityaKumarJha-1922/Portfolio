@@ -1,45 +1,68 @@
-# 🚀 My Portfolio Website
+# 🚀 Aditya Kumar Jha — Portfolio Website
 
-Welcome to my portfolio website! This is a showcase of my projects, skills, and experiences as a Computer Science graduate with expertise in software development, machine learning, and VR application development.
+Personal portfolio website showcasing my projects, skills, and experience as a Computer Science graduate with expertise in VR development, AI/ML, web development, and IoT solutions.
 
-## 🌐 Live Demo
-You can check out my portfolio here: [My Portfolio URL](https://adityakumarjha.com.np)
+## 🌐 Live Site
+
+**[adityakumarjha.com.np](https://www.adityakumarjha.com.np)**
 
 ## 📌 Features
-- 🖥️ Modern and responsive design
-- 📂 Showcasing projects with descriptions and links
-- 📝 Interactive Pages section 
-- 📞 Contact form for inquiries
-- 🌙 Dark mode 
+
+- 🖥️ Modern, responsive dark-themed design
+- 📂 Project showcase with horizontal scroll carousel
+- 📝 Blog / insights section
+- 📞 Contact form (powered by Formspree)
+- ⚡ Dynamic typing animation (Typed.js)
+- 🔍 SEO-optimized with Open Graph & Twitter Card meta tags
 
 ## 🛠️ Tech Stack
-- **Frontend**: HTML, CSS, JavaScript, React.js
-- **Deployment**: GitHub Pages
 
-## 📖 Setup Instructions
-To run this project locally:
+| Layer | Technologies |
+|---|---|
+| **Frontend** | HTML5, CSS3, Vanilla JavaScript |
+| **Libraries** | [Typed.js](https://github.com/mattboldt/typed.js/), Font Awesome |
+| **Hosting** | GitHub Pages + Cloudflare |
+
+## 📁 Project Structure
+
+```
+Portfolio/
+├── index.html              ← Main page
+├── 404.html                ← Custom error page
+├── CNAME                   ← Custom domain config
+├── robots.txt              ← Search engine directives
+├── sitemap.xml             ← SEO sitemap
+├── LICENSE                 ← Copyright notice
+├── css/
+│   └── styles.css          ← All styles
+├── js/
+│   └── main.js             ← All scripts
+└── assets/
+    ├── images/             ← Project & blog images
+    └── favicon/            ← Favicons & web manifest
+```
+
+## 📖 Local Development
 
 ```bash
 # Clone the repository
 git clone https://github.com/AdityaKumarJha-1922/Portfolio.git
-
-# Navigate into the project directory
 cd Portfolio
 
+# Open with Live Server (VS Code) or any static file server
 ```
 
 ## 📷 Screenshots
-![Portfolio Preview](https://github.com/AdityaKumarJha-1922/Portfolio/blob/main/images/MainSample.png)
-![Portfolio Preview](https://github.com/AdityaKumarJha-1922/Portfolio/blob/main/images/SampleWork.png)
 
-## 🛠️ Customization
-You can customize the content by editing the files inside:
-- `images/` (for images and static files)
-- `index.html` (for contents of Website)
-
-## 🤝 Contributing
-Feel free to contribute or suggest improvements by submitting an issue or a pull request.
+![Portfolio Preview](assets/images/main-sample.png)
+![Portfolio Work Section](assets/images/sample-work.png)
 
 ## 📬 Contact
-📧 Email: info [dot] adityajha1 [at] gmail [dot] com  
-🔗 LinkedIn: [LinkedIn](https://www.linkedin.com/in/aditya-kumar-jha-572149197/)
+
+- 📧 **Email:** info.adityajha1@gmail.com
+- 🔗 **LinkedIn:** [Aditya Kumar Jha](https://www.linkedin.com/in/aditya-kumar-jha-572149197/)
+- 🐙 **GitHub:** [@AdityaKumarJha-1922](https://github.com/AdityaKumarJha-1922)
+
+---
+
+© 2026 Aditya Kumar Jha. All Rights Reserved.

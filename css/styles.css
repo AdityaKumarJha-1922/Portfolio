@@ -260,31 +260,7 @@ nav {
     align-items: center;
 }
 
-.skill-item {
-    margin-bottom: 15px;
-}
 
-.skill-name {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 8px;
-}
-
-.skill-bar {
-    height: 10px;
-    background-color: var(--gray-accent);
-    border-radius: 5px;
-    position: relative;
-}
-
-.skill-progress {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    background-color: var(--yellow-primary);
-    border-radius: 5px;
-}
 
 .fun-facts {
     background-color: var(--darker-bg);
@@ -541,50 +517,6 @@ nav {
     font-weight: 600;
 }
 
-/* ==========================================================================
-   Blog Section
-   ========================================================================== */
-.blog {
-    background-color: var(--darker-bg);
-}
-
-.blog-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 30px;
-}
-
-.blog-card {
-    background-color: var(--dark-bg);
-    border-radius: 10px;
-    overflow: hidden;
-    transition: transform 0.3s ease;
-}
-
-.blog-card:hover {
-    transform: translateY(-10px);
-}
-
-.blog-img {
-    height: 200px;
-    overflow: hidden;
-}
-
-.blog-img img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.blog-content {
-    padding: 20px;
-}
-
-.blog-date {
-    color: var(--yellow-primary);
-    font-size: 14px;
-    margin-bottom: 10px;
-}
 
 /* ==========================================================================
    Contact Section
@@ -750,9 +682,7 @@ footer {
         height: 250px;
     }
 
-    .blog-grid {
-        grid-template-columns: 1fr;
-    }
+
 
     .portfolio-container {
         padding: 0 20px;
